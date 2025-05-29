@@ -1,0 +1,13 @@
+{
+  "name": "guess-number-game",
+  "targets": {
+    "dev": {
+      "command": "npm run start",
+      "cache": false
+    },
+    "build": {
+      "command": "npm run build",
+      "outputs": ["build"]
+    }
+  }
+}

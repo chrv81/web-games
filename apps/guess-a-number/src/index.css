@@ -1,0 +1,44 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  @apply box-border text-base;
+}
+
+body {
+  /* @apply p-0 m-0 text-gray-200 bg-gray-800; */
+  @apply text-gray-200 bg-gray-800;
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+/* HEADER */
+h1 {
+  @apply text-3xl;
+}
+
+.btn {
+  @apply px-6 py-4 text-lg text-gray-800 bg-gray-200 cursor-pointer;
+  font-family: inherit;
+  border: none;
+}
+
+.btn:hover {
+  @apply bg-gray-400;
+}
+
+.box {
+  @apply px-6 py-10 mt-10 text-4xl text-gray-800 bg-gray-200 w-52;
+}
+
+.number {
+  @apply p-8 text-2xl text-black bg-gray-200;
+}
