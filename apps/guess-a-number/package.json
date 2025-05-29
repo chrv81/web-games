@@ -2,5 +2,23 @@
   "homepage": "https://chrisvo3.github.io/guess-number-game",
   "name": "guess-number-game",
   "version": "0.1.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

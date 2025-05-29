@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "start:homepage": "npm --workspace apps/homepage run start",
-    "start:guessnum": "npm --workspace apps/game-1 run start",
+    "start:guessnum": "npm --workspace apps/guess-a-number run start",
     "build:homepage": "npm --workspace apps/homepage run build",
     "build:guessnum": "npm --workspace apps/game-1 run build"
   },
